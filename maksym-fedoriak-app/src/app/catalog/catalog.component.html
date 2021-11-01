@@ -7,14 +7,16 @@
 	</div>
 	<div fxFlex>
 		<mat-grid-list cols="3" rowHeight="200px">
-			<mat-grid-tile *ngFor="let item of items">
-				<mat-grid-tile-header>
-					<h2 matLine>{{item.label}}</h2>
-				</mat-grid-tile-header>
+			<mat-grid-tile *ngFor="let item of items">				
 				<img matListAvatar src="{{item.image}}" alt="{{item.name}}">
 				<mat-grid-tile-footer>
 					<p matLine>
-						<span>{{item.description | uppercase}}</span>
+						<span>
+							<h2 matLine>{{item.name | uppercase}}</h2>
+						</span>
+					</p>
+					<p matLine>
+						<span>{{item.description}}</span>
 					</p>
 				</mat-grid-tile-footer>				
 			</mat-grid-tile>

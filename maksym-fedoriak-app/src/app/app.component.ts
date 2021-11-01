@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-//import { Items } from '~/src/shared/items';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'maksym-fedoriak-app';
+  navBarTitle = this.title.replace(/-/gi, " ");
+
 }
