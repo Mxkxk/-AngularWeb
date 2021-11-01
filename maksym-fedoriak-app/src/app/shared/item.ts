@@ -14,7 +14,7 @@ export const itemsConst:Item[] = [
     {
       id:'0',
       name:'Item 1',
-      image:'https://via.placeholder.com/200?text=Item',
+      image:'https://via.placeholder.com/200?text=',
       category:'A',
       label:'Item A',
       price:'200',
@@ -24,7 +24,7 @@ export const itemsConst:Item[] = [
     {
       id:'1',
       name:'Item 2',
-      image:'https://via.placeholder.com/200?text=Item',
+      image:'https://via.placeholder.com/200?text=',
       category:'A',
       label:'Item A',
       price:'200',
@@ -34,7 +34,7 @@ export const itemsConst:Item[] = [
     {
       id:'2',
       name:'Item 3',
-      image:'https://via.placeholder.com/200?text=Item',
+      image:'https://via.placeholder.com/200?text=',
       category:'A',
       label:'Item A',
       price:'200',
@@ -44,7 +44,7 @@ export const itemsConst:Item[] = [
     {
       id:'3',
       name:'Item 4',
-      image:'https://via.placeholder.com/200?text=Item',
+      image:'https://via.placeholder.com/200?text=',
       category:'A',
       label:'Item A',
       price:'200',
@@ -54,7 +54,7 @@ export const itemsConst:Item[] = [
     {
       id:'4',
       name:'Item 5',
-      image:'https://via.placeholder.com/200?text=Item',
+      image:'https://via.placeholder.com/200?text=',
       category:'A',
       label:'Item A',
       price:'200',
@@ -64,7 +64,7 @@ export const itemsConst:Item[] = [
     {
       id:'5',
       name:'Item 6',
-      image:'https://via.placeholder.com/200?text=Item',
+      image:'https://via.placeholder.com/200?text=',
       category:'A',
       label:'Item A',
       price:'200',

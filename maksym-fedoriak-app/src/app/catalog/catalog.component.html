@@ -8,7 +8,7 @@
 	<div fxFlex>
 		<mat-grid-list cols="3" rowHeight="200px">
 			<mat-grid-tile *ngFor="let item of items">				
-				<img matListAvatar src="{{item.image}}" alt="{{item.name}}">
+				<img matListAvatar src="{{item.image}}{{item.name}}" alt="{{item.name}}">
 				<mat-grid-tile-footer>
 					<p matLine>
 						<span>
