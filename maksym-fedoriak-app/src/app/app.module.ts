@@ -9,11 +9,13 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { CatalogComponent } from './catalog/catalog.component';
 import { MatListModule } from '@angular/material/list';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { ItemdetailComponent } from './itemdetail/itemdetail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CatalogComponent
+    CatalogComponent,
+    ItemdetailComponent
   ],
   imports: [
     BrowserModule,
